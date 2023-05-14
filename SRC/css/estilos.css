@@ -5,7 +5,7 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
     max-width: 1440px;
     margin:0 auto;
 }
