@@ -1,10 +1,11 @@
-@media (max-width: 1200px) {
-    body {
-        background-color: orange;
+@media (max-width: 1180px) {
+
+    body{
+        overflow-y: scroll;
     }
 
     .fundo-video {
-        display: none;
+        position: fixed;
     }
 
     .container {
@@ -14,8 +15,9 @@
         gap: 15px;
     }
     
-    .container .mario {
-        max-width: 75%;
+    .container .spiderman {
+        max-width: 390px;
+        margin-top: 50px;
     }
 
     .container .informacoes {
@@ -31,6 +33,16 @@
 
     .container .botao-trailer {
         background-color: #263238;
+    }
+}
+
+@media (max-width: 635px){
+    .container .imagem-titulo{
+        width: 480px;
+    }
+
+    .container .spiderman{
+        width: 90%;
     }
 }
 

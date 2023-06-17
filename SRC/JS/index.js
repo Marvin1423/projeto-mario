@@ -1,5 +1,4 @@
     const botaoTrailer = document.querySelector(".botao-trailer");
-    console.log(botaoTrailer);
     const modal = document.querySelector(".modal");
     const fecharModal = document.querySelector(".fechar-modal");
     const video = document.getElementById("video");
